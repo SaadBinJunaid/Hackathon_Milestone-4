@@ -1,0 +1,90 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0%;
+    background-color:whitesmoke;
+}
+
+h1{
+    text-align: center;
+    color: rgb(7,7,7,0.723);
+}
+
+form{
+    max-width: 550px;
+    margin: auto;
+    background-color:rgb(229, 224, 224);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(2, 2, 2, 0.5);
+    padding: 18px;
+}
+
+fieldset{
+    border: 2px solid #268bb0;
+    border-radius:8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color:lightblue;
+}
+
+legend{
+    font-weight: bolder;
+    text-align: left;
+}
+
+label{
+    display:block;
+    margin-top: 8px;
+    color: rgb(13, 0, 255);
+}
+
+input,textarea{
+    width: calc(100% - 80px);
+    padding: 6px;
+    margin-top: 2px;
+    border: 2px solid #3498bd;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 7px;
+    background-color: rgb(56,105,121);
+    color: lightblue;
+    border: none;
+    border-radius: 7.5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover{
+background-color:aqua;
+}
+
+#resumeOutput{
+    max-width: 550px;
+    margin: auto;
+    background-color:  rgb(229, 224, 224);
+    border: 2px solid #3498bd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(2, 2, 2, 0.5);
+    padding: 18px;
+}
+
+#resumeOutput h2{
+    color: #2c3e50;
+}
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #3498bd;
+    box-shadow: 0 4px 8px rgba(2, 2, 2, 0.5);
+    border-radius: 500%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
